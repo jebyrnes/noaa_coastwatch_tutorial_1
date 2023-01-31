@@ -22,17 +22,6 @@ if (any(installed_packages == FALSE)) {
 invisible(lapply(packages, library, character.only = TRUE))
 ```
 
-    ## terra 1.7.5
-
-    ## 
-    ## Attaching package: 'tidyterra'
-
-    ## The following object is masked from 'package:stats':
-    ## 
-    ##     filter
-
-    ## Linking to GEOS 3.11.0, GDAL 3.5.3, PROJ 9.1.0; sf_use_s2() is TRUE
-
 If you are having problems with terra loading netcdf files later in the
 script, try installing it from source from its github repo or from CRAN.
 

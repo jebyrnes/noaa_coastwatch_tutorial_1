@@ -10,7 +10,7 @@ This tutorial will show the steps to grab data in ERDDAP from R, how to work wit
 
 If you do not have the ncdf4 and httr packages installed in R, you will need to install them.  For later use, we willll also use the sf, ggplot2, terra, and tidyterra packages. The following code checks to see if the packages are installed or not, and will install them if needed:
 
-```{r}
+```{r, message = FALSE}
 
 # Package names
 packages <- c( "ncdf4","httr", "terra", "tidyterra", "ggplot2", "sf")
