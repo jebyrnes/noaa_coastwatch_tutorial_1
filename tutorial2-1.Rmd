@@ -6,7 +6,7 @@ output:
 ---
 
 ```{r include = FALSE}
-knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 ```
 
 This tutorial will showcase the use of the rerddap package, which was developed to make it easier to interact with ERDDAP servers from R.
